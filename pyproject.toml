@@ -6,6 +6,12 @@ authors = ["nomnomnonono <nozomu.koujiguchi1204@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
+google-cloud-bigquery = "^3.29.0"
+google-auth = "^2.38.0"
+boto3 = "^1.36.10"
+pandas = "^2.2.3"
+db-dtypes = "^1.4.0"
+gspread = "^6.1.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

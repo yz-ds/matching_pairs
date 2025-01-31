@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 
 ENV LD_PRELOAD /var/task/sklearn/utils/../../scikit_learn.libs/libgomp-d22c30c5.so.1.0.0
 
-CMD ["src.main.main"]
+CMD ["src.main.handler"]
